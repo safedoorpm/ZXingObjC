@@ -5538,7 +5538,7 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "ZXingObjC-iOS";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -5652,7 +5652,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
@@ -5694,7 +5694,7 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "ZXingObjC-iOS";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
@@ -5711,7 +5711,7 @@
 				GCC_PREFIX_HEADER = "ios-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "ZXingObjC-iOS";
-				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
 			};
